@@ -735,6 +735,10 @@ static int stm32x_probe(struct flash_bank *bank)
 			page_size = 2048;
 			max_flash_size_in_kb = 128;
 			break;
+		case 0x466: /* stm32g03x */
+			page_size = 2048;
+			max_flash_size_in_kb = 32;
+			break;
 		default:
 			LOG_WARNING("Cannot identify target as a STM32 family.");
 			return ERROR_FAIL;

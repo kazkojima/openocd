@@ -51,7 +51,7 @@ static struct rtos_type *rtos_types[] = {
 	&mqx_rtos,
 	&uCOS_III_rtos,
 	&nuttx_rtos,
-	&multicore_rtos,
+	//	&multicore_rtos,
 	&hwthread_rtos,
 	NULL
 };

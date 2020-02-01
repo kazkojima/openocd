@@ -72,7 +72,7 @@ extern const struct flash_driver stm32f1x_flash;
 extern const struct flash_driver stm32f2x_flash;
 extern const struct flash_driver stm32lx_flash;
 extern const struct flash_driver stm32l4x_flash;
-extern const struct flash_driver stm32l5x_flash;
+//extern const struct flash_driver stm32l5x_flash;
 extern const struct flash_driver stm32h7x_flash;
 extern const struct flash_driver stm32g0x_flash;
 extern const struct flash_driver stmsmi_flash;
@@ -87,8 +87,8 @@ extern const struct flash_driver xcf_flash;
 extern const struct flash_driver xmc1xxx_flash;
 extern const struct flash_driver xmc4xxx_flash;
 
-extern struct flash_driver plugin_flash;
-extern struct flash_driver msp432p4_flash;
+//extern struct flash_driver plugin_flash;
+//extern struct flash_driver msp432p4_flash;
 extern struct flash_driver aducm302x_flash;
 extern struct flash_driver aducm4x50_flash;
 
@@ -152,7 +152,7 @@ static const struct flash_driver * const flash_drivers[] = {
 	&stm32f2x_flash,
 	&stm32lx_flash,
 	&stm32l4x_flash,
-	&stm32l5x_flash,
+	//	&stm32l5x_flash,
 	&stm32h7x_flash,
 	&stm32g0x_flash,
 	&stmsmi_flash,
@@ -166,8 +166,8 @@ static const struct flash_driver * const flash_drivers[] = {
 	&xmc1xxx_flash,
 	&xmc4xxx_flash,
 	&w600_flash,
-	&msp432p4_flash,
-	&plugin_flash,
+	//	&msp432p4_flash,
+	//	&plugin_flash,
 	NULL,
 };
 
